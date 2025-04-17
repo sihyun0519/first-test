@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>잡고 Job+Go - 진로체험 플랫폼</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f9f9f9;
+      color: #222;
+    }
+    nav {
+      background-color: #001f3f;
+      color: white;
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav h1 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #ffcc00;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav ul li a:hover {
+      color: #ffcc00;
+    }
+    .hero {
+      height: 90vh;
+      background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.4)),
+                  url('https://images.unsplash.com/photo-1573164574396-9d9f29d0b3d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      padding: 0 20px;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      font-weight: 400;
+      max-width: 600px;
+    }
+    section {
+      padding: 80px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 700;
+      color: #001f3f;
+      margin-bottom: 40px;
+    }
+    .about-content {
+      text-align: center;
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #333;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h1>잡고 Job+Go</h1>
+    <ul>
+      <li><a href="#about">잡고 소개</a></li>
+      <li><a href="#plans">이용권 안내</a></li>
+      <li><a href="#value">사회적 가치</a></li>
+      <li><a href="#contact">문의</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero">
+    <div>
+      <h2>진짜 직업을, 직접 체험하다</h2>
+      <p>은퇴한 전문가와 함께하는 세대 연결형 진로체험 플랫폼, 잡고(Job+Go)</p>
+    </div>
+  </div>
+
+  <section id="about">
+    <h2 class="section-title">잡고는 무엇인가요?</h2>
+    <div class="about-content">
+      잡고는 진로를 고민하는 청소년과 풍부한 경험을 가진 은퇴 전문가를 연결해주는 진로체험 플랫폼입니다.<br/><br/>
+      학생은 실제 직무를 현장에서 경험하며 진로를 구체화하고,<br/>
+      전문가에게는 새로운 역할과 소득을 제공하여 세대가 함께 성장하는 기회를 만듭니다.
+    </div>
+  </section>
+  <section id="plans">
+    <h2 class="section-title">잡고 이용권 안내</h2>
+    <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;">
+      <div style="background: white; border-radius: 12px; padding: 30px; width: 300px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+        <h3 style="color: #001f3f; font-size: 1.4rem; margin-bottom: 10px;">Job 이용권</h3>
+        <p>사무실에서 진행하는 전문가 강의 + 기본 실습</p>
+        <p style="margin-top: 10px; font-weight: 700; color: #ffcc00;">₩40,000</p>
+      </div>
+      <div style="background: white; border-radius: 12px; padding: 30px; width: 300px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+        <h3 style="color: #001f3f; font-size: 1.4rem; margin-bottom: 10px;">Go 이용권</h3>
+        <p>1:1 심화 멘토링 중심, 진로 상담과 방향 설정</p>
+        <p style="margin-top: 10px; font-weight: 700; color: #ffcc00;">₩80,000</p>
+      </div>
+      <div style="background: white; border-radius: 12px; padding: 30px; width: 300px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+        <h3 style="color: #001f3f; font-size: 1.4rem; margin-bottom: 10px;">JobGo 이용권</h3>
+        <p>직업 현장으로 이동하여 실제 업무를 직접 체험</p>
+        <p style="margin-top: 10px; font-weight: 700; color: #ffcc00;">₩120,000</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="value" style="background-color: #f0f4f8;">
+    <h2 class="section-title">기대 효과와 사회적 가치</h2>
+    <div style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: center; max-width: 1000px; margin: auto;">
+      <div style="flex: 1; min-width: 280px;">
+        <h4 style="color: #001f3f; font-size: 1.2rem;">🎓 청소년</h4>
+        <ul style="margin-top: 10px; line-height: 1.8;">
+          <li>실제 직무 체험을 통한 진로 구체화</li>
+          <li>관심 직업에 대한 현실적 이해</li>
+          <li>전문가와의 연결로 진로 멘토링</li>
+        </ul>
+      </div>
+      <div style="flex: 1; min-width: 280px;">
+        <h4 style="color: #001f3f; font-size: 1.2rem;">👨‍🏫 은퇴 전문가</h4>
+        <ul style="margin-top: 10px; line-height: 1.8;">
+          <li>퇴직 후 전문성 재활용 기회</li>
+          <li>지속 가능한 고령 일자리 제공</li>
+          <li>세대 간 지식 공유와 보람</li>
+        </ul>
+      </div>
+      <div style="flex: 1; min-width: 280px;">
+        <h4 style="color: #001f3f; font-size: 1.2rem;">🌏 사회</h4>
+        <ul style="margin-top: 10px; line-height: 1.8;">
+          <li>세대 간 소통과 존중 문화 조성</li>
+          <li>교육 기회의 지역 편차 해소</li>
+          <li>사회적 가치 실현 + 일자리 창출</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <h2 class="section-title">이용 및 제휴 문의</h2>
+    <div style="text-align: center; font-size: 1.1rem;">
+      <p>잡고(Job+Go) 운영팀</p>
+      <p>📞 전화: 031-1234-5678</p>
+      <p>📧 이메일: jobgo@careerhub.kr</p>
+      <p>🏢 주소: 경기도 잡고시 진로구 세대로 123</p>
+    </div>
+  </section>
+
+  <footer style="background-color: #001f3f; color: white; padding: 30px 20px; text-align: center; margin-top: 50px;">
+    <p style="font-size: 1.1rem; font-weight: 600;">잡고 Job+Go</p>
+    <p style="margin-top: 10px;">진로를 고민하는 청소년과, 경험을 가진 은퇴 전문가를 연결합니다.</p>
+    <p style="margin-top: 5px; font-size: 0.9rem;">© 2025 잡고. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
